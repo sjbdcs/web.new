@@ -1,0 +1,21 @@
+{
+	"browserSyncOptions": {
+		"proxy": "campuspress.local/theme-campuspress-flex/",
+		"notify": false, 
+		"files": ["./css/*.min.css", "./js/*.min.js", "./**/*.php"]
+	},
+	"browserSyncWatchFiles": ["./css/*.min.css", "./js/*.min.js", "./**/*.php"],
+	"paths": {
+		"js": "./js",
+		"css": "./css",
+		"img": "./img",
+		"imgsrc": "./src/img",
+		"sass": "./sass",
+		"node": "./node_modules",
+		"composer": "./vendor",
+		"dev": "./src",
+		"dist": "./campuspress-flex",
+		"distprod": "./dist-product",
+		"vendor": ""
+	}
+}
